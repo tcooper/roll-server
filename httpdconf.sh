@@ -27,6 +27,7 @@ DocumentRoot @DOCROOT@
 # allow all access to the rolls RPMS
 <Directory @DOCROOT@/install/rolls>
         DirectoryIndex /install/rolls/index.cgi
+	AddHandler cgi-script .cgi
         Allow from all
 </Directory>
 
